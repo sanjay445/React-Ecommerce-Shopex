@@ -3,6 +3,7 @@ import Main from './components/Main';
 import Basket from './components/Basket';
 import data from './data';
 import { useState } from 'react';
+var React = require('react');
 function App() {
   const { products } = data;
   const [cartItems, setCartItems] = useState([]);
